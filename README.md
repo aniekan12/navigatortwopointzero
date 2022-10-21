@@ -1,16 +1,13 @@
 # devfest_handson
 
-A new Flutter project.
+This app is a sample app for the DevFest 2022 hands-on session that
+shows you how to use navigator 2.0.
 
-## Getting Started
+## Resources that will help you
+1. https://www.youtube.com/watch?v=iMzDMCaZQXg&list=WL&index=8&t=617s
 
-This project is a starting point for a Flutter application.
+2. https://www.youtube.com/watch?v=GxoFl5kzJgE&t=2632s
 
-A few resources to get you started if this is your first Flutter project:
+3. https://www.raywenderlich.com/19457817-flutter-navigator-2-0-and-deep-links#toc-anchor-027
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4. https://docs.google.com/document/d/1Q0jx0l4-xymph9O6zLaOY4d_f7YFpNWX_eGbzYxr9wY/edit#
