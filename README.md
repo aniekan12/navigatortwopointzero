@@ -3,6 +3,22 @@
 This app is a sample app for Aniekan's DevFest 2022 hands-on session that
 shows you how to use navigator 2.0 🎉.
 
+## Getting Started
+### Cloning the Repo
+* Click on the "Code" button on the Repo page.
+* Copy the URL for the Repo "https://github.com/aniekan12/popular-people-app"
+* Open your code editor and run `git clone` "https://github.com/aniekan12/popular-people-app"
+
+
+Download dependencies with:
+```
+flutter pub get
+```
+And build the app with:
+```
+flutter run
+```
+
 ## Resources that will help you 
 1. https://www.youtube.com/watch?v=iMzDMCaZQXg&list=WL&index=8&t=617s
 
