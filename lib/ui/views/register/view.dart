@@ -26,7 +26,18 @@ class _RegisterViewState extends State<RegisterView> {
       onModelReady: (model) => model.init(context),
       onDispose: (model) => model.dispose(),
       builder: (context, model, _) {
-        return Scaffold();
+        return Scaffold(
+          appBar: AppBar(),
+          body: Center(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text('hiiiii this is signUp'),
+              ],
+            ),
+          ),
+        );
       },
     );
   }

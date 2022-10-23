@@ -1,6 +1,5 @@
 import 'package:devfest_handson/utils/app_theme.dart';
 import 'package:flutter/material.dart';
-import 'package:oktoast/oktoast.dart';
 import 'package:provider/provider.dart';
 
 import 'core/providers/setup.dart';
@@ -39,15 +38,13 @@ class _MobileScaffoldAppState extends State<MobileScaffoldApp> {
         ),
         ...providers,
       ],
-      child: OKToast(
-        child: MaterialApp(
-          debugShowCheckedModeBanner: widget.isDebug,
-          darkTheme: AppTheme.darkTheme(),
-          theme: AppTheme.lightTheme(),
-          home: Router(
-            routerDelegate: _appRouter,
-            backButtonDispatcher: RootBackButtonDispatcher(),
-          ),
+      child: MaterialApp(
+        debugShowCheckedModeBanner: widget.isDebug,
+        darkTheme: AppTheme.darkTheme(),
+        theme: AppTheme.lightTheme(),
+        home: Router(
+          routerDelegate: _appRouter,
+          backButtonDispatcher: RootBackButtonDispatcher(),
         ),
       ),
     );

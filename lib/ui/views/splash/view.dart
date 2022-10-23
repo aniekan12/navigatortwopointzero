@@ -1,5 +1,6 @@
 import 'package:devfest_handson/navigation/pages.dart';
 import 'package:devfest_handson/ui/base/base_view.dart';
+import 'package:devfest_handson/ui/widgets/app_button.dart';
 import 'package:flutter/material.dart';
 
 import 'view_model.dart';
@@ -30,7 +31,17 @@ class _SplashViewState extends State<SplashView> {
           body: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: [],
+              children: [
+                Spacer(),
+                AppButton(
+                    onTap: () => model.appStateManager.goToSignUp(),
+                    buttonText: 'Sign up'),
+                const SizedBox(height: 20),
+                AppButton(
+                    onTap: () => model.appStateManager.goToLogin(),
+                    buttonText: 'Login'),
+                const SizedBox(height: 50),
+              ],
             ),
           ),
         );

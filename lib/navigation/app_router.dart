@@ -30,6 +30,7 @@ class AppRouter extends RouterDelegate
       pages: [
         if (!appStateManager.isInitialised) SplashView.page(),
         if (appStateManager.login) LoginView.page(),
+        if (appStateManager.signUp) RegisterView.page(),
       ],
     );
   }

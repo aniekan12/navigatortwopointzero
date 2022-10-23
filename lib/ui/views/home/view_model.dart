@@ -3,7 +3,7 @@ import 'package:devfest_handson/ui/base/base_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-class SplashViewModel extends BaseViewModel {
+class HomeViewModel extends BaseViewModel {
   late AppStateManager appStateManager;
   init(BuildContext context) {
     appContext = context;

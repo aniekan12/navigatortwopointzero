@@ -28,6 +28,15 @@ class _LoginViewState extends State<LoginView> {
       builder: (context, model, _) {
         return Scaffold(
           appBar: AppBar(),
+          body: Center(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text('hiiiii this is login'),
+              ],
+            ),
+          ),
         );
       },
     );

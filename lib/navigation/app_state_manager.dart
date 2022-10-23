@@ -13,6 +13,13 @@ class AppStateManager extends ChangeNotifier {
     notifyListeners();
   }
 
+  bool _signUp = false;
+  bool get signUp => _signUp;
+  set signUp(bool v) {
+    _signUp = v;
+    notifyListeners();
+  }
+
   void initializeApp() {
     _initialised = true;
     notifyListeners();
@@ -20,6 +27,11 @@ class AppStateManager extends ChangeNotifier {
 
   void goToLogin() {
     _login = true;
+    notifyListeners();
+  }
+
+  void goToSignUp() {
+    _signUp = true;
     notifyListeners();
   }
 
