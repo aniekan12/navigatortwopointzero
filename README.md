@@ -8,6 +8,8 @@ shows you how to use navigator 2.0 🎉.
 * Click on the "Code" button on the Repo page.
 * Copy the URL for the Repo "https://github.com/aniekan12/popular-people-app"
 * Open your code editor and run `git clone` "https://github.com/aniekan12/popular-people-app"
+* Copy the URL for the Repo "https://github.com/aniekan12/navigatortwopointzero.git"
+* Open your code editor and run `git clone` "https://github.com/aniekan12/navigatortwopointzero.git"
 
 
 Download dependencies with:
