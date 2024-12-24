@@ -1,7 +1,7 @@
 # DevFest HandsOn 🎉
 
 This app is a sample app for Aniekan's DevFest 2022 hands-on session that
-shows you how to use navigator 2.0 🎉.
+shows you how to use navigator 2.0 🎉🎉.
 
 ## Getting Started
 ### Cloning the Repo
